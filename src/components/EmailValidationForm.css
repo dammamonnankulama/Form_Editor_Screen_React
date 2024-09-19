@@ -1,0 +1,39 @@
+
+.email-validation-form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input-field {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 2px solid green;
+    margin-bottom: 10px;
+}
+
+.input-field.error {
+    border-color: red;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #ccc;
+    cursor: not-allowed;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+}
+
+.submit-button.active {
+    background-color: #28a745;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
